@@ -196,15 +196,15 @@ class BFSAgent(Agent):
 # Objetivo:	
 #   Selecionar o vizinho com menor custo
 # 	Peguei a distância entre cada nó que está na vizinhança e o ponto atual
-#   for n in range (len(neighbors)):
-# 		distance.euclidean(self.percepts[‘current_position’], path[n])
+#       for n in range (len(neighbors)):
+# 		    distance.euclidean(self.percepts[‘current_position’], path[n])
 #   Salvei esses valores em uma lista e peguei o menor valor da lista (min(list))
-#   Nesse ponto, tinha o armazenado o valor dessa menor distância	
-#   Porém não consegui estabelecer uma relação entre essa variável e a posição 
-#   que esse	 nó ocupa na lista de fronteiras
+#   Nesse ponto, tinha armazenado o valor dessa menor distância	
+#   Porém, não consegui estabelecer uma relação entre essa variável e a posição 
+#   que esse nó ocupa na lista de fronteiras
 # Tentativa:
 #   Fazer um dicionário, atribuindo um nome aleatório para cada valor de 
-#   distância, e selecionar ao ‘path’ o nome que tivesse a menor distância
+#   distância, e enviar ao ‘path’ o nome que tivesse a menor distância
 
 # AStarAgent
 # Objetivo:
